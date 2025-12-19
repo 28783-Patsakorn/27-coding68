@@ -1,0 +1,68 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM5eM4LrclGQb/09XTBDDTL",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/28783-Patsakorn/27-coding68/blob/main/mid-27Pluem.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 21,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "968SbpnWp_Kc",
+        "outputId": "bb814262-cee4-461c-ce2a-536a4be6121c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "กรุณาระบุปีเกิด(พ.ศ) : 2449\n",
+            "ไปเลือกตั้งได้\n"
+          ]
+        }
+      ],
+      "source": [
+        "อายุ=int(input(\"กรุณาระบุปีเกิด(พ.ศ) : \"))\n",
+        "อายุ=(2568-อายุ)\n",
+        "if อายุ>=18:\n",
+        "  print(\"ไปเลือกตั้งได้\")\n",
+        "else:\n",
+        "  print(\"ไม่สามารถเลือกตั้งได้\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "rDTiIki2tViq"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
