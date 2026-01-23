@@ -1,0 +1,587 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM+rofxIJW8+E1bLtc4iv1M",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/28783-Patsakorn/27-coding68/blob/main/27PluemEiEi\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "เลขที่ 27 ปลื้ม พัสกร นาควิสุทธิ์\n",
+        "No.27 Pluem Patsakorn Nakwisut"
+      ],
+      "metadata": {
+        "id": "tMMmtGOtbzI7"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "22/5/2568\n",
+        "วิธีเขียนคำสั่ง print"
+      ],
+      "metadata": {
+        "id": "6OAeUuWpddYY"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "ifaZr8J_YHSb",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "98886722-5abb-44e9-c6e9-01d7b61327b7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "สวัสดีครับ\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"สวัสดีครับ\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(489+1)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C2c4a6sYoKzy",
+        "outputId": "4bfedfa0-6ca3-4cd3-bee7-3135304215f4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "490\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"อกไก่ต้องมีคนหมัก อกหักต้องมีคนใหม่ ก็เหมือนคนใดที่ถูกเจียวคือคนเดียวที่เป็นไข่\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fMpSgfO7lxbr",
+        "outputId": "321bb324-5a5d-49ac-fdcd-8ef2a151c3e1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "อกไก่ต้องมีคนหมัก อกหักต้องมีคนใหม่ ก็เหมือนคนใดที่ถูกเจียวคือคนเดียวที่เป็นไข่\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 506\n",
+        "b = 412\n",
+        "c = a + b\n",
+        "print(\"c=\",c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GeSHIgdUiMrm",
+        "outputId": "31ed3334-8665-440e-95aa-99a2f29eea35"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "c= 918\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 5/6/2568"
+      ],
+      "metadata": {
+        "id": "W8nZmCSBeazg"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Ex1\n",
+        "ex1_list=[7,9,\"Patsakorn\"]\n",
+        "print(ex1_list)\n",
+        "print(type(ex1_list[0]),type(ex1_list[1]),type(ex1_list[2]))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RCE4C8tGdnmR",
+        "outputId": "9942fb46-f570-4517-94cb-02390460c7a7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[7, 9, 'Patsakorn']\n",
+            "<class 'int'> <class 'int'> <class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#input\n",
+        "name=input(\"ชื่อ นามสกุล \")\n",
+        "\n",
+        "print(\"ดีครับ\",name,\"พี่ใหญ่\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QcpjKsHnk4M-",
+        "outputId": "8ac45cb0-9e82-4696-a896-d4fa63c4ba7e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ชื่อ นามสกุล มาดิ\n",
+            "ดีครับ มาดิ พี่ใหญ่\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Math Operators\n",
+        "num1=60\n",
+        "num2=9\n",
+        "print(\"ผลบวกของ\",num1,\"กับ\",num2,\"คือ\",num1+num2)\n",
+        "print(\"ผลลบของ\",num1,\"กับ\",num2,\"คือ\",num1-num2)\n",
+        "print(\"ผลคูณของ\",num1,\"กับ\",num2,\"คือ\",num1*num2)\n",
+        "print(\"ผลหารของ\",num1,\"กับ\",num2,\"คือ\",num1/num2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6Zs7JQ1zp54D",
+        "outputId": "dd0a3f69-1dfd-4300-f3c6-57fe7aae011b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ผลบวกของ 60 กับ 9 คือ 69\n",
+            "ผลลบของ 60 กับ 9 คือ 51\n",
+            "ผลคูณของ 60 กับ 9 คือ 540\n",
+            "ผลหารของ 60 กับ 9 คือ 6.666666666666667\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Ex3 BMI ver 1.0 ของ เลขที่ 27 ชื่อพัสกร นาควิสุทธิ์ ชือเล่นปลื้ม\n",
+        "Age=float(input(\"อายุ \"))\n",
+        "Weight=float(input(\"น้ำหนัก กิโลกรัม \"))\n",
+        "Height=float(input(\"ส่วนสูง เซนติเมตร \"))\n",
+        "BMI=(Weight)/(((Height)/100)**2)\n",
+        "print(\"ค่า BMI คือ\",BMI)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MswPwHvytS8j",
+        "outputId": "b479d092-4347-4bf9-f385-cd8644f91c4e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "อายุ 14\n",
+            "น้ำหนัก กิโลกรัม 49.58\n",
+            "ส่วนสูง เซนติเมตร 172\n",
+            "ค่า BMI คือ 16.75905895078421\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 12 มิถุนายน 2568\n",
+        "โจทย์ 48. รับอายุ ถ้าน้อยกว่า 18 แสดงว่า 'ยังไม่บรรลุนิติภาวะ'"
+      ],
+      "metadata": {
+        "id": "faO52CW5xmzF"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#รับข้อมูล (input)\n",
+        "Age=int(input(\"กรุณาระบุอายุ (ปี) : \"))\n",
+        "\n",
+        "#ประมวลผล(process)+แสดงผล(output)\n",
+        "if Age>=18:\n",
+        "  print(\"บรรลุนิติภาวะแล้ว\")\n",
+        "else:\n",
+        "  print(\"ยังไม่บรรลุนิติภาวะ\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GhZmZCK4taSM",
+        "outputId": "003a713f-2725-4f0e-eb5d-7fa5fa294b0e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "กรุณาระบุอายุ (ปี) : 17\n",
+            "ยังไม่บรรลุนิติภาวะ\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 19/6/2568"
+      ],
+      "metadata": {
+        "id": "xVwLVzvHxnY-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#BMI ver 2.0 ของ เลขที่ 27 ชื่อพัสกร นาควิสุทธิ์ ชือเล่นปลื้ม\n",
+        "Weight=float(input(\"น้ำหนัก กิโลกรัม \"))\n",
+        "Height=float(input(\"ส่วนสูง เซนติเมตร \"))\n",
+        "bmi=(Weight)/(((Height)/100)**2)\n",
+        "if bmi<18.5:\n",
+        " print(\"ค่า BMI คือ\",bmi)\n",
+        " print(\"แปลผล คือ น้ำหนักน้อย\")\n",
+        " print(\"คำแนะนำ คือ รับประทานให้มากขึ้น\")\n",
+        "elif bmi<23.0:\n",
+        " print(\"ค่า BMI คือ\",bmi)\n",
+        " print(\"แปลผล คือ น้ำหนักปกติ\")\n",
+        " print(\"คำแนะนำ คือ ไม่จำเป็นต้องเปลี่ยนแปล\")\n",
+        "else:\n",
+        " print(\"ค่า BMI คือ\",bmi)\n",
+        " print(\"แปลผล คือ น้ำหนักมาก\")\n",
+        " print(\"คำแนะนำ คือ คุมอาหารกับออกกำลังกายบ้างก็ได้\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RAP1InpEyg0O",
+        "outputId": "3c47eaf7-4c42-493a-a5da-2417963b2a92"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "น้ำหนัก กิโลกรัม 435\n",
+            "ส่วนสูง เซนติเมตร 9867\n",
+            "ค่า BMI คือ 0.044680600419757285\n",
+            "แปลผล คือ น้ำหนักน้อย\n",
+            "คำแนะนำ คือ รับประทานให้มากขึ้น\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 17/7/68        สอบกลางภาค"
+      ],
+      "metadata": {
+        "id": "_fhUU6upy2cl"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=input('ชื่อ  ')\n",
+        "print('\\nสวัสดี '+name+ ' ครับ')\n",
+        "print('\\nอันนี้เป็นการคำนวณกำลังสองสมบูรณ์นะครับ')\n",
+        "a=float(input(\"ตัวเลขแรก : \"))\n",
+        "b=float(input('ตัวเลขสอง : '))\n",
+        "calculate=(a+b)**2==a**2+2*(a*b)+b**2\n",
+        "print('\\n\\nผลลัพธ์คือ '+str(calculate))\n",
+        "print('\\nผู้ทำคือ พัสกร นาควิสุทธิ์(ปลื้ม) เลขที่ 27')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "R9TObxgH0M61",
+        "outputId": "816fa303-161e-4a76-8ccf-c2ee564c5f29"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ชื่อ  fg dws ew\n",
+            "\n",
+            "สวัสดี fg dws ew ครับ\n",
+            "\n",
+            "อันนี้เป็นการคำนวณกำลังสองสมบูรณ์นะครับ\n",
+            "ตัวเลขแรก : 10\n",
+            "ตัวเลขสอง : 10\n",
+            "\n",
+            "\n",
+            "ผลลัพธ์คือ True\n",
+            "\n",
+            "ผู้ทำคือ พัสกร นาควิสุทธิ์(ปลื้ม) เลขที่ 27\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#โจทย์ 2 สร้างโปรแกรมของตัวเอง(เกมตอบคำถาม)\n",
+        "print('เกมตอบคำถาม: เริ่มกันเลย')\n",
+        "print('คำถาม 1: ประเทศที่มีประชากรมากที่สุดคือประเทศ?')\n",
+        "answer1 = input(\"ตอบ \")\n",
+        "if answer1==\"จีน\" or answer1=='china' :\n",
+        "    print('ถูกต้อง')\n",
+        "\n",
+        "else:\n",
+        "    print('ผิดคำตอบคือ จีน')\n",
+        "\n",
+        "print('\\nคำถาม 2: 5 คูณ 6 หา่ร 2 =?')\n",
+        "answer1 = input(\"ตอบ \")\n",
+        "if answer1==\"15\" :\n",
+        "    print('ถูกต้อง')\n",
+        "\n",
+        "else:\n",
+        "    print('ผิดคำตอบคือ 15')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hdqRinCQDatn",
+        "outputId": "de535e3b-d6bc-46b6-9da0-6caae9d0d1e4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "เกมตอบคำถาม: เริ่มกันเลย\n",
+            "คำถาม 1: ประเทศที่มีประชากรมากที่สุดคือประเทศ?\n",
+            "ตอบ China\n",
+            "ผิดคำตอบคือ จีน\n",
+            "\n",
+            "คำถาม 2: 5 คูณ 6 หา่ร 2 =?\n",
+            "ตอบ 16\n",
+            "ผิดคำตอบคือ 15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#di=เลนส์เว้า do=ระยะวัตถุ #f=เลนส์นูน M=หน่วยเมตร\n",
+        "#สูตรคือ 1/f = 1/s + 1/s'\n",
+        "\n",
+        "f = float(input(\"ป้อนความยาวโฟกัสของเลนส์ (f) หน่วยเป็นเมตร: \"))\n",
+        "do = float(input(\"ป้อนระยะวัตถุ (do) หน่วยเป็นเมตร: \"))\n",
+        "\n",
+        "if do <= 0:\n",
+        "    print(\"ข้อผิดพลาด: ระยะวัตถุต้องเป็นค่าบวก\")\n",
+        "elif (1/f - 1/do) == 0:\n",
+        "    print(\"ไม่สามารถคำนวณได้: วัตถุอยู่ที่จุดโฟกัส ภาพจะอยู่ที่ระยะไม่สิ้นสุด\")\n",
+        "else:\n",
+        "    di = 1 / (1/f - 1/do)\n",
+        "    M = -di / do\n",
+        "    print(\"\\n--- ผลการคำนวณ ---\")\n",
+        "    print(f\"ระยะภาพ (di): {di:.4f} เมตร\")\n",
+        "    print(f\"อัตราการขยายภาพ (M): {M:.4f}\")\n",
+        "    print(\"\\n--- ลักษณะของภาพ ---\")\n",
+        "    if di > 0:\n",
+        "        print(\"ภาพเป็นภาพจริง\")\n",
+        "        if f > 0:\n",
+        "            print(\"ภาพอยู่ด้านหลังเลนส์\")\n",
+        "    else:\n",
+        "        print(\"ภาพเป็นภาพเสมือน\")\n",
+        "        print(\"ภาพอยู่ด้านหน้าเลนส์ (ด้านเดียวกับวัตถุ)\")\n",
+        "\n",
+        "    if M > 0:\n",
+        "        print(\"ภาพเป็นภาพหัวตั้ง\")\n",
+        "    else:\n",
+        "        print(\"ภาพเป็นภาพหัวกลับ\")\n",
+        "\n",
+        "    if abs(M) > 1:\n",
+        "        print(\"ภาพมีขนาดขยายใหญ่ขึ้น\")\n",
+        "    elif abs(M) < 1:\n",
+        "        print(\"ภาพมีขนาดเล็กลง\")\n",
+        "    else:\n",
+        "        print(\"ภาพมีขนาดเท่าเดิม\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 228
+        },
+        "id": "AUqOQgsUM0DY",
+        "outputId": "6a8ca0b3-c08b-4bab-92cc-fe113d59c0e1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "ป้อนความยาวโฟกัสของเลนส์ (f) หน่วยเป็นเมตร: g\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "ValueError",
+          "evalue": "could not convert string to float: 'g'",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mValueError\u001b[0m                                Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipython-input-3920213221.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0;31m#สูตรคือ 1/f = 1/s + 1/s'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 4\u001b[0;31m \u001b[0mf\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"ป้อนความยาวโฟกัสของเลนส์ (f) หน่วยเป็นเมตร: \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      5\u001b[0m \u001b[0mdo\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"ป้อนระยะวัตถุ (do) หน่วยเป็นเมตร: \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      6\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mValueError\u001b[0m: could not convert string to float: 'g'"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#สูตรคำนวณเปอร์เซ็นกำไร\n",
+        "cost = float(input(\"ต้นทุน: \"))\n",
+        "sell = float(input(\"ราคาขาย: \"))\n",
+        "\n",
+        "profit_percent = ((sell - cost) / cost) * 100\n",
+        "print(f\"เปอร์เซ็นต์กำไร: {profit_percent:.2f}\")"
+      ],
+      "metadata": {
+        "id": "en0k2762KRoG",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "228f0e5a-d9ee-4526-c743-02a63b53920a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ต้นทุน: 25\n",
+            "ราคาขาย: 25\n",
+            "เปอร์เซ็นต์กำไร: 0.00\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "weight=float(input(\"น้ำหนัก (กิโลกรัม)\"))                                                      นายพัสกร นาควิสุทธิ์ เลขที่ 27\n",
+        "level=float(input(\"ระดับการออกกำลังกาย(1.0,1.5,2.0): \"))\n",
+        "protein=weight*level\n",
+        "print(\"ควรที่จะกินโปรตีน\",protein, \"กรัมต่อวัน\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tn4nx4Kvklr-",
+        "outputId": "41d31dd0-3f2d-410a-a7f2-76dbeb64b4c9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "น้ำหนัก (กิโลกรัม)47.2\n",
+            "ระดับการออกกำลังกาย(1.0,1.5,2.0): 2.0\n",
+            "ควรที่จะกินโปรตีน 94.4 ต่อกรัม\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
